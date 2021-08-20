@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<head>
+
+    <link rel=stylesheet href="Styles.css">
+    <script src="../js/site.js" type="text/javascript" language="javascript"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="game">
+
+            <div class="board">
+                <table id="board">
+                    <tr>
+                        <td id="a8" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b8" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c8" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d8" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e8" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f8" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g8" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h8" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a7" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b7" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c7" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d7" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e7" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f7" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g7" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h7" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a6" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b6" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c6" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d6" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e6" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f6" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g6" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h6" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a5" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b5" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c5" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d5" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e5" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f5" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g5" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h5" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a4" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b4" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c4" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d4" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e4" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f4" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g4" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h4" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a3" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b3" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c3" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d3" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e3" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f3" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g3" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h3" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a2" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b2" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c2" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d2" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e2" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f2" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g2" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h2" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                    <tr>
+                        <td id="a1" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="b1" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="c1" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="d1" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="e1" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="f1" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="g1" class="board-square black" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                        <td id="h1" class="board-square white" onclick="boardClicked(id)"><img class="imgBoard" /></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="txtBlackCheck"></div>
+            <div id="txtWhiteCheck"></div>
+        </div>
+    </div>
+    <hr />
+    <input type="button" id="btnStart" value="Start" onclick="startGame()" />
+    <hr />
+    <div class="display">
+        <div id="warningDisplay">
+
+        </div>
+        <div id="turnDisplay"></div>
+    </div>
+
+
+    <script type="text/javascript" src="Chess.js"></script>
+</body>
+
