@@ -1,0 +1,13 @@
+name: Snyk Workflow
+on: push
+jobs:
+   security:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@master
+        - name: Run Snyk Check
+          uses: snyk/actions/python@master
+          env:
+            SNYK_TOKEN: ${{ 
+          with:
+            command: code test
